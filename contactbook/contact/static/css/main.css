@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.contact-main{
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #a2a4a6;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    position: relative;
+}
+.contact-user-image{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.contact-user-image img{
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+.mobile-number, .call-name, .message-name, .email-name{
+    color: #a2a4a6;
+}
+.name{
+    font-weight: bolder;
+}
+.contact-details-user-image{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin:40px auto 20px;
+}
+.contact-details-user-image img{
+    border-radius: 5px;
+}
+.call, .message{
+    position: relative;
+}
+.call::after, .message::after{
+    position: absolute;
+    right: -5px;
+    content: '|';
+    bottom: auto;
+    left: auto;
+    top: 0;
+    font-size: 30px;
+    color: #a2a4a663;
+    
+}
+.call-name, .message-name, .email-name{
+    padding:0 20px;
+}
+.call-email-text-main{
+    margin-top: 20px;
+    border-top: 1px solid #a2a4a6;
+    border-bottom: 1px solid #a2a4a6;
+    padding: 10px 0;
+}
+.other-details{
+    background-color: #e2ebfe;
+    padding: 10px;
+}
+.other-details-list{
+    margin-top: 30px;
+}
+.create-new{
+    position: absolute;
+    bottom: 10px;
+    left: auto;
+    right: 10px;
+    top: auto;
+}
